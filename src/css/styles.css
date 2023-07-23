@@ -1,0 +1,96 @@
+*{
+  margin: 0;
+  padding: 0;
+  background-size: 100%;
+}
+
+#botao-musica {
+  background: none;
+  border: none;
+}
+
+body {
+    background-image: url(./naruto.webp);
+}
+
+.imagem-botao {
+  margin-top: 10%;
+  margin-left: 70%;
+  width: 50px;
+}
+
+.imagem-botao:hover {
+  transform: scale(1.05);
+	cursor: pointer;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.calculadora {
+    background-color: #F2E750;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    max-width: 350px;
+    width: 80%;
+}
+  
+  .screen {
+    background-color: #fff;
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+  
+  .display {
+    font-size: 24px;
+    border: none;
+    width: 100%;
+    text-align: right;
+    outline: none;
+}
+
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+  
+  .button {
+    font-size: 24px;
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+  .operator {
+    background-color: #f2f2f2;
+}
+  
+  .button:hover {
+    background-color: #eee;
+}
+  
+  #music-button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+audio {
+  display: none;
+}
+
