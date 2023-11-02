@@ -7,7 +7,7 @@ Este é o repositório chamado "Calculadora Ninja", foi um projeto simples de ca
 1. **Clonagem do Repositório:**
    - Clone este repositório em seu ambiente local utilizando o comando:
      ```bash
-     git clone https://github.com/giovannacaique/naruto-calculadora.git
+     git clone https://github.com/SEU_USERNAME/naruto-calculadora.git
      ```
 
 2. **Execução do Projeto:**
